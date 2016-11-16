@@ -1,0 +1,188 @@
+.datomataWidgetCellTitle {
+    padding:0px;margin-top:5px;color: #265da3;font-family: Georgia,"Times New Roman",Times,serif;  text-decoration: none;font-size: 16px;
+}
+
+.datomataWidgetKeywordTitle {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    padding: 2px 4px;
+    line-height: 1.3em;
+    text-align: left;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 500;
+    background-color: #000000;
+    opacity: .3;
+    filter: alpha(opacity=50);
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+.datomataTrendingIcon {
+    width:10%;
+    height:10%;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+}
+
+.datomataWidgetCellTitle:hover{
+    text-decoration: underline;
+}
+.datomataMainArticleCell {
+    background:#FFFFFF; box-shadow: 0 15px 10px #FFFFFF; clear:left; position:relative;width:100%;
+}
+
+.datomataCellImage {
+    width:100%;vertical-align: text-top;color:#FFFFFF;
+}
+
+.datomataHrefTag {
+    text-decoration:none;
+}
+
+.datomataMainArticleDescription {
+    padding:0px;margin-top:3px;font-family: Arial, Helvetica, sans-serif !important;display: block;color:#555;background: #fff;font-size: 14px;line-height: 20px;
+}
+
+.datomataCellImage {
+    width:100%;vertical-align: text-top;color:#FFFFFF;
+}
+
+.datomataTailRow {
+    clear:left; position:relative;width:100%;
+}
+
+.datomataHeaderRow {
+    clear:left; position:relative;width:100%;
+}
+
+.datomataHeaderText {
+    padding-left:0px;display: inline; cursor: hand; vertical-align: text-bottom;font-size:15px;font-family:  Georgia,"Times New Roman",Times,serif;font-weight: bold;color: #000000;
+    text-transform: uppercase;
+    float: left;
+}
+
+.datomataLink {
+    color: white;cursor: hand; color: #000000;text-decoration: none;
+}
+
+.datomataHeaderRightText {
+    color:#000000;text-align:right;display:inline;cursor: hand; font-family: Arial;font-size: 12.0px;vertical-align: text-bottom;
+}
+
+.datomataHeaderLeftText {
+    padding-left:0px;display: inline; cursor: hand; vertical-align: text-bottom;font-family: Mangal;font-size: 18.0px;font-weight: bold; text-decoration: none;color: #000000;
+}
+
+.datomataLinkContainer {
+    background:#FFF; background-color: #FFFFFF; float:left; position: relative; text-align:right;float:left; margin:1px;width:48%;
+}
+.datomataTailRowContainer {
+    background-color: #FFFFFF;  position: relative; text-align:right;float:left; margin:2px;
+}
+
+.datomataMainArticleContainer {
+    text-align: justify;background:#FFF;  background-color: #FFFFFF;  position: relative; float:left; margin:8px;
+}
+
+.datomataRowBasedCellStart {
+    background-color: #FFFFFF;  position: relative; float:left; overflow:hidden;
+}
+
+.datomataRowBasedCellStartHeader {
+    background-color: #FFFFFF;  position: relative; float:left; overflow:hidden;
+}
+
+.datomataRowBasedCellStartHeaderTop {
+    background-color: #FFFFFF;  position: relative; float:left; overflow:hidden;
+}
+
+
+.datomataRowBasedCellStart3D {
+    background-color: #FFFFFF;  position: relative; float:left; overflow:hidden; padding-top: 1px;
+}
+
+.datomataRowBasedRowDiv {
+    background:#FFF;  clear:left;position:relative;width:100%;
+}
+
+.datomataHeaderRowColumnBased {
+    position:relative;width:100%;display:inline;float:left; cursor: hand;vertical-align: text-bottom;
+}
+
+.datomataEmptyColumnBasedCell {
+    clear:left;
+}
+
+.datomataMainArticleColumnBasedCell {
+    text-align: justify;background:#FFF; box-shadow: 0 25px 20px #777; background-color: #FFFFFF;  position: relative; float:left;
+}
+
+.datomataArticleColumnBasedCell {
+    background:#FFF; box-shadow: 0 15px 10px #777; background-color: #FFFFFF;  position: relative; float:left; 
+}
+
+.datomataColumnBasedCell {
+    background:#FFFFFF; box-shadow: 0 15px 10px #FFFFFF; clear:left; position:relative;width:100%;
+}
+
+.datomataMainArticleCell {
+    background:#FFFFFF; box-shadow: 0 15px 10px #FFFFFF; clear:left; position:relative;width:100%
+}
+
+.watched-badge {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    padding: 2px 4px;
+    line-height: 1.3em;
+    text-align: left;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 500;
+    background-color: #0e0e0e;
+    opacity: .3;
+    filter: alpha(opacity=50);
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.datomataHeaderRowColumnBasedContainer {
+    background-color: #FFFFFF; float:left; margin:1px;width:48%;
+}
+
+.imageDiv {
+    position: relative; bottom: 0; right:0;
+}
+
+/*datomata_widget*/
+#datomata_widget .thumbnail{
+    float: left;
+    width: calc(33.3% - 5px);
+    margin-right: 5px;
+}
+#datomata_widget .datomataHeaderText{
+    float: left;
+}
+
+#title_wrapper{
+    width: 100%;
+    float: left;
+}
+
+.thumbnail p{
+    padding-bottom: 20px;
+}
+
+#title_wrapper .datomataHeaderText{
+    width: 100%;
+    text-transform: uppercase;
+}
+/*datomata_widget ends*/
